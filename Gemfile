@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
-ruby '2.4.1'
+ruby '2.6.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.2'
-
+gem 'groupify'  
 gem 'activeadmin', '~> 1.4.3'
 gem 'aws-sdk-s3', '~> 1', require: false
 gem 'bootsnap', '~> 1.3.0'
@@ -14,12 +14,12 @@ gem 'draper', '~> 3.0.0'
 gem 'figaro', '~> 1.1.1'
 gem 'haml-rails', '~> 1.0.0'
 gem 'jbuilder', '~> 2.7.0'
-gem 'oj', '~> 2.17.5'
 gem 'pg', '~> 0.18.2'
 gem 'pry-rails', '~> 0.3.6'
 gem 'puma', '~> 3.0'
 gem 'rack-cors', '~> 0.4.0'
 gem 'sendgrid', '~> 1.2.4'
+gem 'rails-erd'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
@@ -45,7 +45,7 @@ group :development do
   gem 'rails_best_practices', '~> 1.19.4'
   gem 'reek', '~> 5.3.1'
   gem 'rubocop', '~> 0.65.0'
-  gem 'spring'
+  gem 'spring', '~> 2.1'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 

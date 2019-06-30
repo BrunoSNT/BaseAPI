@@ -3,7 +3,7 @@ module Api
     class RegistrationsController < DeviseTokenAuth::RegistrationsController
       protect_from_forgery with: :exception
       include Api::Concerns::ActAsApiRequest
-
+      
       private
 
       def sign_up_params

@@ -40,6 +40,9 @@ class User < ApplicationRecord
   validates :uid, uniqueness: { scope: :provider }
 
   before_validation :init_uid
+  
+  has_many :user_groups
+  has_many :groups, through: :user_groups
 
   def full_name
     return username if first_name.blank?
