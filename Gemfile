@@ -17,7 +17,7 @@ gem 'jbuilder', '~> 2.7.0'
 gem 'pg', '~> 0.18.2'
 gem 'pry-rails', '~> 0.3.6'
 gem 'puma', '~> 3.0'
-gem 'rack-cors', '~> 0.4.0'
+gem 'rack-cors', '~> 1.0.5'
 gem 'sendgrid', '~> 1.2.4'
 gem 'rails-erd'
 # Use Redis adapter to run Action Cable in production
